@@ -36,7 +36,7 @@ Este projeto tem como objetivo explorar a API de **Streams**, manipular listas e
 
 ## ⚙️ **Tecnologias Utilizadas**
 
-- **Java 17+** — Linguagem principal  
+- **Java 21+** — Linguagem principal  
 - **IntelliJ IDEA** — Ambiente de desenvolvimento  
 - **VS Code** — Alternativa compatível  
 - **Streams API** — Manipulação funcional de coleções  
