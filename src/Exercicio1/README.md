@@ -1,52 +1,101 @@
-# ☕ **Java Exercises — Coleções & Streams**
+# 💼 Exercício: Gerenciamento de Funcionários com Java & Streams
 
-Bem-vindo ao repositório **Java Exercises**, uma coleção de exercícios práticos desenvolvida durante minha jornada de aprendizado. O foco inicial está em **Streams** e **Coleções**, fundamentais para o processamento de dados em Java com abordagem funcional e elegante.
-
-> ⚠️ Novos tópicos serão adicionados à medida que os estudos evoluírem!
-
----
-
-## 📑 **Índice**
-- [📝 Introdução](#-introdução)
-- [💻 Exercícios de Streams e Coleções](#-exercícios-de-streams-e-coleções)
-- [⚙️ Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🚀 Como Executar](#-como-executar)
-- [📄 Licença](#-licença)
-- [🙌 Agradecimentos](#-agradecimentos)
+Este exercício demonstra como utilizar a **API de Streams** do Java para realizar operações funcionais sobre uma lista de funcionários.  
+O objetivo é praticar **orientação a objetos**, **manipulação de listas**, **programação funcional** e **operações com `Stream`** como `filter`, `map`, `reduce` e `collect`.
 
 ---
 
-## 📝 **Introdução**
+## 📝 Enunciado do Exercício
 
-Este projeto tem como objetivo explorar a API de **Streams**, manipular listas e aplicar técnicas funcionais com **lambdas** em Java. A prática constante desses conceitos está sendo a base para futuros projetos mais robustos e organizados.
+Crie um programa em Java que:
 
-> Cada exercício é modular e executável separadamente.
-
----
-
-## 💻 **Exercícios de Streams e Coleções**
-
-| 📂 Pasta      | 🧠 Descrição                                                                 |
-|---------------|------------------------------------------------------------------------------|
-| `Exercicio1`  | Gerenciamento de funcionários: filtragem por salário, cálculo de comissão, soma total usando Streams |
-| `Exercicio2`  | Tipos de dados básicos: declaração, atribuição e exibição no console         |
-| *(em breve)*  | Novos desafios virão com a evolução do aprendizado!                         |
+- Filtre os funcionários com salário **acima de R$ 2.000,00**;
+- Calcule **10% de comissão** sobre os salários filtrados;
+- Calcule a **soma total dos salários** da lista.
 
 ---
 
-## ⚙️ **Tecnologias Utilizadas**
+## 📁 Estrutura de Arquivos
+Exercicio1/
+├── Funcionario.java // Classe que representa um funcionário com nome e salário
+├── Principal.java // Classe principal com as operações usando Streams
+└── README.md // Este documento
 
-- **Java 21+** — Linguagem principal  
-- **IntelliJ IDEA** — Ambiente de desenvolvimento  
-- **VS Code** — Alternativa compatível  
-- **Streams API** — Manipulação funcional de coleções  
-- **JDK** — Kit de Desenvolvimento Java
 
 ---
 
-## 🚀 **Como Executar**
+## 💻 Solução do Exercício
 
-📥 Clone o repositório:
+A classe `Principal` cria uma lista de funcionários com nome e salário, e aplica operações usando a API de Streams do Java para:
 
-```bash
-git clone https://github.com/Arthurlsk/Java-Exercises.git
+1. Filtrar salários acima de R$ 2.000;
+2. Calcular a comissão de 10% sobre esses salários;
+3. Somar todos os salários da lista.
+
+---
+
+## 🧾 Código-fonte
+
+```java
+package Exercicio1;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Principal {
+    public static void main(String[] args) {
+        List<Funcionario> funcionarios = List.of(
+            new Funcionario("Arthur", 5000),
+            new Funcionario("Leonardo", 2500),
+            new Funcionario("Renate", 10000),
+            new Funcionario("Manoel", 1000),
+            new Funcionario("Camile", 1500)
+        );
+
+        List<String> funcionariosAcimaDoisMil = funcionarios.stream()
+            .filter(f -> f.getSalario() > 2000)
+            .map(Funcionario::getNome)
+            .collect(Collectors.toList());
+        System.out.println("Funcionários com salário acima de R$2.000: " + funcionariosAcimaDoisMil);
+
+        List<Double> comissoes = funcionarios.stream()
+            .filter(f -> f.getSalario() > 2000)
+            .map(f -> f.getSalario() * 0.10)
+            .collect(Collectors.toList());
+        System.out.println("Comissões de 10%: " + comissoes);
+
+        double totalSalarios = funcionarios.stream()
+            .map(Funcionario::getSalario)
+            .reduce(0.0, Double::sum);
+        System.out.println("Soma total dos salários: " + totalSalarios);
+    }
+}
+```
+## 🔍 Detalhamento das Operações
+
+| Método                         | Função                                                                |
+|-------------------------------|-----------------------------------------------------------------------|
+| `filter()`                     | Filtra funcionários com salário superior a R$ 2.000                   |
+| `map()`                        | Transforma os dados (nome ou cálculo da comissão)                    |
+| `collect(Collectors.toList())`| Agrupa os resultados em uma lista                                    |
+| `reduce(0.0, Double::sum)`     | Soma todos os salários da lista                                      |
+
+---
+```
+## ✅ Saída Esperada
+
+Funcionários com salário acima de R$2.000: [Arthur, Leonardo, Renate]
+Comissões de 10%: [500.0, 250.0, 1000.0]
+Soma total dos salários: 20000.0
+```
+---
+
+## 📚 O que você aprende com esse exercício?
+
+- Criação e uso de classes (`Funcionario`)
+- Manipulação de listas em Java
+- Aplicação prática da API de `Stream`
+- Uso de funções `filter`, `map`, `reduce`, `collect`
+- Pensamento funcional em Java (transformações em dados)
+
+
