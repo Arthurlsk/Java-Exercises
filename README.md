@@ -80,5 +80,5 @@ Sinta-se livre para usar, modificar e distribuir os códigos.
 ```
 
 ## 🙌 Agradecimentos
-Agradeço à Alura e a outras plataformas de ensino que têm contribuído para o meu aprendizado contínuo.
+Agradeço à [Alura](https://www.alura.com.br/?utm_term=alura&utm_campaign=%5BSearch%5D%20%5BPerformance%5D%20-%20Institucional&utm_source=bing&utm_medium=cpc&utm_content=73598845598993&campaign_id=566118231&utm_id=566118231_1177577964362469_73598845598993&hsa_acc=138072252&hsa_grp=1177577964362469&hsa_ad=73598845598993&hsa_src=o&hsa_tgt=kwd-73598817883911:loc-20&hsa_kw=alura&hsa_mt=e&hsa_net=bing&hsa_ver=3%20&hsa_cam=566118231&msclkid=38ae809fdc321758b6ede8ed7e62caa4) e a outras plataformas de ensino que têm contribuído para o meu aprendizado contínuo.
 Este repositório é parte do meu compromisso com a prática constante e o aprimoramento das minhas habilidades em Java.
