@@ -40,7 +40,7 @@ O repositório será expandido com o tempo para incluir tópicos como:
 
 | Nº | Título                        | Descrição                                                         |
 |----|-------------------------------|-------------------------------------------------------------------|
-| 1  | [Gerenciamento de Funcionários](./Exercicio1) | Filtra e processa salários com `Stream` e listas (`List`)         |
+| 1  | [Gerenciamento de Funcionários](src/Exercicio1) | Filtra e processa salários com `Stream` e listas (`List`)         |
 | 🚧 | Em breve                      | Novos exercícios com lógica, POO, arquivos etc. serão adicionados |
 
 > Cada exercício está em sua própria pasta (ex: `Exercicio1/`) com um `README.md` explicativo.
