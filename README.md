@@ -49,7 +49,7 @@ O repositório será expandido com o tempo para incluir tópicos como:
 
 ## ⚙️ Tecnologias Utilizadas
 
-- **Java 17** ou superior
+- **Java 21** ou superior
 - **IntelliJ IDEA** (ou outra IDE Java)
 - **Terminal/Console** (para compilar e executar)
 - **API de Stream** e **Collections**
