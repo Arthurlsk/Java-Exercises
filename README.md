@@ -83,7 +83,7 @@ Os exercícios estão sendo adicionados gradualmente. Os tópicos já abordados 
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Arthurlsk/Java-Exercises.git
 ```
 2. Abra no IntelliJ IDEA (ou IDE de sua escolha)
 
