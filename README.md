@@ -27,7 +27,7 @@ Os exercícios abordam desde os fundamentos até conceitos mais avançados, com 
 
 Os exercícios estão organizados por tema e cobrem os seguintes tópicos:
 
-- ✅ **Variáveis e tipos primitivos**  
+- ⏳ **Variáveis e tipos primitivos**  
   Declaração, atribuição e operações básicas com dados primitivos
 
 - ✅ **Estruturas de controle**  
