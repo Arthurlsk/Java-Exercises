@@ -11,7 +11,7 @@ Crie um programa em Java que:
 - Receba o **preço de um produto**;
 - Solicite a **categoria do cliente** (`VIP` ou `Comum`);
 - Calcule o valor final com desconto de acordo com as regras abaixo:
-
+---
 ### 💸 Regras de Desconto
 
 | Preço do Produto | Categoria do Cliente | Desconto Aplicado  |
@@ -77,7 +77,7 @@ public class Loja {
     }
 }
 ```
-
+---
 ## 🧠 Conceitos Aplicados
 Conceito	Descrição
 if	Verifica condições para aplicar os descontos
@@ -85,7 +85,7 @@ else if	Avalia múltiplas possibilidades para preços e categorias
 else	Garante um valor padrão caso nenhuma condição anterior seja satisfeita
 Scanner	Utilizado para ler dados de entrada do usuário
 
-
+---
 ## ✅ Exemplo de Saída
 ```
 Digite o preço do produto:
@@ -94,7 +94,7 @@ Digite sua categoria: (1) VIP ou (2) Comum
 1
 Valor do produto com 20% de desconto: 96.0
 ```
-
+---
 ## 📚 O que você aprende com esse exercício?
 
 - Uso de estruturas condicionais (if, else if, else)
