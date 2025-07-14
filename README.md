@@ -63,7 +63,7 @@ Os exercícios estão sendo adicionados gradualmente. Os tópicos já abordados 
 | Nº | Título                                          | Descrição                                                      |
 |----|-------------------------------------------------|----------------------------------------------------------------|
 | 1  | [Gerenciamento de Funcionários](src/Exercicio1) | Filtra e processa salários com `Stream` e listas (`List`)      |
-| 🚧 | [Cálculo de Desconto em Loja](src/Exercicio2)   | Praticar **estruturas condicionais** (`if`, `else if`, `else`) |
+| 2  | [Cálculo de Desconto em Loja](src/Exercicio2)   | Praticar **estruturas condicionais** (`if`, `else if`, `else`) |
 
 > Cada exercício está em sua própria pasta (ex: `Exercicio1/`) com um `README.md` explicativo.
 
