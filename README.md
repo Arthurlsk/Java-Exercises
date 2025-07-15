@@ -60,10 +60,12 @@ Os exercícios estão sendo adicionados gradualmente. Os tópicos já abordados 
 
 ## 📂 Exercícios
 
-| Nº | Título                                          | Descrição                                                      |
-|----|-------------------------------------------------|----------------------------------------------------------------|
-| 1  | [Gerenciamento de Funcionários](src/Exercicio1) | Filtra e processa salários com `Stream` e listas (`List`)      |
-| 2  | [Cálculo de Desconto em Loja](src/Exercicio2)   | Praticar **estruturas condicionais** (`if`, `else if`, `else`) |
+| Nº | Título                                               | Descrição                                                                    |
+|----|------------------------------------------------------|------------------------------------------------------------------------------|
+| 1  | [Gerenciamento de Funcionários](src/Exercicio1)      | Filtrar e processar salários com `Stream` e listas (`List`)                  |
+| 2  | [Cálculo de Desconto em Loja](src/Exercicio2)        | Praticar **estruturas condicionais** (`if`, `else if`, `else`)               |
+| 3  | [Cálculo de Média de notas de Alunos](src/Exercico3) | Cadastro de alunos e notas com cálculo de média, usando laços e condicionais |
+
 
 > Cada exercício está em sua própria pasta (ex: `Exercicio1/`) com um `README.md` explicativo.
 

@@ -79,11 +79,11 @@ public class Loja {
 ```
 ---
 ## 🧠 Conceitos Aplicados
-Conceito	Descrição
-if	Verifica condições para aplicar os descontos
-else if	Avalia múltiplas possibilidades para preços e categorias
-else	Garante um valor padrão caso nenhuma condição anterior seja satisfeita
-Scanner	Utilizado para ler dados de entrada do usuário
+
+- if para verificar condições para aplicar os descontos
+- else if para avaliar múltiplas possibilidades para preços e categorias
+- else para garantir um valor padrão caso nenhuma condição anterior seja satisfeita
+- Scanner utilizando-o para ler dados de entrada do usuário
 
 ---
 ## ✅ Exemplo de Saída
