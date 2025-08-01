@@ -33,7 +33,7 @@ Os exercícios estão organizados por tema e cobrem os seguintes tópicos:
 - ✅ **Estruturas de controle**  
   Uso de `if`, `else`, `else if`, `switch`, além de laços `for`, `while` e `do while`
 
-- ⏳ **Orientação a Objetos**  
+- ✅ **Orientação a Objetos**  
   Conceitos de classes, atributos, métodos, objetos e construtores
 
 - ⏳ **Encapsulamento**  
@@ -64,7 +64,8 @@ Os exercícios estão sendo adicionados gradualmente. Os tópicos já abordados 
 |----|-------------------------------------------------------|------------------------------------------------------------------------------|
 | 1  | [Gerenciamento de Funcionários](src/Exercicio1)       | Filtrar e processar salários com `Stream` e listas (`List`)                  |
 | 2  | [Cálculo de Desconto em Loja](src/Exercicio2)         | Praticar **estruturas condicionais** (`if`, `else if`, `else`)               |
-| 3  | [Cálculo de Média de notas de Alunos](src/Exercicio3) | Cadastro de alunos e notas com cálculo de média, usando laços e condicionais |
+| 3  | [Cálculo de Média de notas de Alunos](src/Exercicio3) | Cadastro de alunos e notas com cálculo de média, usando laços e condicionais 
+| 4  | [Cálculo de total de compras](src/Exercicio4)         | Projeto simples em Java que utiliza os princípios da Orientação a Objetos para calcular o valor total de uma compra com base em produtos, quantidades e preços.
 
 
 > Cada exercício está em sua própria pasta (ex: `Exercicio1/`) com um `README.md` explicativo.
