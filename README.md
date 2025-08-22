@@ -2,7 +2,6 @@
 
 Bem-vindo ao repositório de **Exercícios Básicos em Java**!  
 Este projeto reúne uma coleção de exercícios criados ao longo da minha jornada de aprendizado, com foco em diferentes áreas da linguagem Java.  
-Atualmente, o repositório está sendo feito, mas será continuamente atualizado com exercícios sobre outros tópicos fundamentais da linguagem.
 
 ---
 
@@ -27,7 +26,7 @@ Os exercícios abordam desde os fundamentos até conceitos mais avançados, com 
 
 Os exercícios estão organizados por tema e cobrem os seguintes tópicos:
 
-- ⏳ **Variáveis e tipos primitivos**  
+- ✅ **Variáveis e tipos primitivos**  
   Declaração, atribuição e operações básicas com dados primitivos
 
 - ✅ **Estruturas de controle**  
@@ -39,14 +38,13 @@ Os exercícios estão organizados por tema e cobrem os seguintes tópicos:
 - ✅ **Encapsulamento**  
   Uso de modificadores de acesso, `getters` e `setters`
 
-- ⏳ **Herança, Polimorfismo e Interfaces**  
+- ✅ **Herança, Polimorfismo e Interfaces**  
   Reuso de código, especialização de classes e abstração
 
 - ✅ **Manipulação de listas com `Collections`**  
   Operações com listas e uso da API `Stream` (`filter`, `map`, `reduce`, `collect`, etc.)
 
-- ⏳ **Tratamento de exceções e entrada/saída de dados**
-
+  
 ---
 
 ### 🚧 Status do repositório
@@ -67,6 +65,8 @@ Os exercícios estão sendo adicionados gradualmente. Os tópicos já abordados 
 | 3  | [Cálculo de Média de notas de Alunos](src/Exercicio3) | Cadastro de alunos e notas com cálculo de média, usando laços e condicionais 
 | 4  | [Cálculo de total de compras](src/Exercicio4)         | Projeto simples em Java que utiliza os princípios da Orientação a Objetos para calcular o valor total de uma compra com base em produtos, quantidades e preços.|
 | 5  | [Sistema de Avaliação de Filmes com Java ](src/Exercicio5) | Este projeto demonstra um exemplo simples de orientação a objetos em Java, com foco em coletar avaliações de filmes e calcular a média das notas recebidas.|
+| 6  | [Exercício: Variáveis e Tipos Primitivos em Java ](src/Exercicio6) | Este exercício demonstra como utilizar variáveis e tipos primitivos em Java, realizando operações simples como cálculo de IMC e ano de nascimento.|
+| 7  | [Projeto: Operações Bancárias com Java & Orientação a Objetos ](src/Exercicio7) | Este exercício demonstra como aplicar os conceitos de interfaces, classes abstratas e herança em Java. O objetivo é estruturar um sistema simples de banco digital, onde cada operação segue um contrato comum, mas com comportamento específico.|
 
 
 > Cada exercício está em sua própria pasta (ex: `Exercicio1/`) com um `README.md` explicativo.
